@@ -1,0 +1,16 @@
+td {
+    /*padding: 0px !important;*/
+    margin: 0px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+
+    width:33.3%;
+}
+
+#gametable {
+    min-height: 280px;
+    max-height: 280px;
+    min-width: 270px;
+    max-width: 270px;
+}
