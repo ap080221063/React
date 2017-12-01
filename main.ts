@@ -1,11 +1,19 @@
+import * as sq from "Square";
+
 class Main {
-    arrayOfRows: [Square[], Square[], Square[]];
-    j: 0;
-    i: 0;
+    row1: sq.Square[];
+    row2: sq.Square[];
+    row3: sq.Square[];
+    arrayOfRows;
+    j: number = 0;
+    i: number = 0;
     createSctructures() {
+        this.arrayOfRows[0] = this.row1;
+        this.arrayOfRows[1] = this.row2;
+        this.arrayOfRows[2] = this.row3;
         for ( this.j = 0; this.j < 3; this.j++ ) {
             for ( this.i = 0; this.i < 3; this.i++ ) {
-                this.arrayOfRows[this.j][this.i] = new Square();
+                this.arrayOfRows[this.j][this.i] = new sq.Square();
             }
         }
     }

@@ -1,4 +1,4 @@
-class Square {
+ class Square {
     left: Square;
     right: Square;
     top: Square;
@@ -9,6 +9,10 @@ class Square {
     //     this.left = left;
     //     this.right = right;
     // },
-    // constructor() {
-    // }
+    constructor() {
+    }
+}
+
+declare module "Square" {
+    export function fn(): string;
 }
