@@ -1,4 +1,4 @@
-import * as sq from "Square";
+import * as sq from 'Square';
 
 class Main {
     row1: sq.Square[];

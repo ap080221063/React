@@ -9,10 +9,10 @@
     //     this.left = left;
     //     this.right = right;
     // },
-    constructor() {
-    }
+    // constructor() {
+    // }
 }
 
-declare module "Square" {
+ declare module 'Square' {
     export function fn(): string;
 }
