@@ -1,5 +1,5 @@
 # React Training Sessions
-######Some interesting examples developed in a React training session
+###### Some interesting examples developed in a React training session
 
 ### Session 1
 *List of Products with voting and sorting features*
